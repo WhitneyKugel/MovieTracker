@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="New Initial Commit with missing files">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Maven_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Maven_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BucketListMovies.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Maven.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/DirectorComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/GenreComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/LengthComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/ReverseYearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/TitleComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/comparator/YearComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AddNewMovieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/PopulateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SearchDirectorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SearchGenreServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SearchTitleServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/SearchYearServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ViewAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MovieDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MovieDaoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MovieDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/DBUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utility/WorkbookUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add-movie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/Book1.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/curtains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/curtains2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/movies.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/confirmEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/log-in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/populate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search-director.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search-genre.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search-title.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/search-year-released.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/serverError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
