@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.whitneykugel</groupId>
-    <artifactId>MavenExample</artifactId>
+    <artifactId>BucketListMovies</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>MavenExample</name>
+    <name>BucketListMovies</name>
     <packaging>war</packaging>
 
     <properties>

@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MavenExample" />
+        <module name="BucketListMovies" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BucketListMovies" target="1.8" />
       <module name="MavenExample" target="1.8" />
     </bytecodeTargetLevel>
   </component>

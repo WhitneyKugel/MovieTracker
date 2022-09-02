@@ -1,17 +1,17 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Maven:war exploded">
-    <output-path>$PROJECT_DIR$/target/Maven-1.0-SNAPSHOT</output-path>
+  <artifact type="exploded-war" name="BucketListMovies:war exploded">
+    <output-path>$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>Maven</module>
+        <module>BucketListMovies</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="Maven" />
+          <element id="module-output" name="BucketListMovies" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.5" />
@@ -29,9 +29,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/target/Maven-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="Maven/web/Web" />
+      <element id="javaee-facet-resources" facet="BucketListMovies/web/Web" />
     </root>
   </artifact>
 </component>
