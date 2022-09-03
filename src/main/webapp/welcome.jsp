@@ -21,7 +21,7 @@
         <h1>Welcome and thanks for joining!</h1>
       </div>
       <div class="container">
-        <div class="trailerBox">
+        <div class="poster-Box">
           <div class="topRow">
             <div class="topLight" id="topLight1"></div>
             <div class="topLight" id="topLight2"></div>

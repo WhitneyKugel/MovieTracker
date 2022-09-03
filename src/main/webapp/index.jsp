@@ -24,7 +24,7 @@
             fun, and don't forget to grab a snack and some popcorn before you fire up your favorite streaming service.</p>
           </div>
           <div class="container">
-            <div class="trailerBox">
+            <div class="poster-Box">
               <div class="topRow">
                 <div class="topLight" id="topLight1"></div>
                 <div class="topLight" id="topLight2"></div>
