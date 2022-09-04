@@ -15,18 +15,16 @@
       <%@ include file="includes/navigation.jsp" %>
 
       <div class="container">
-        <p>Bucket List Movies is the go-to catalog of every movie you must see. Add movies to your list with
-          detailed information and a trailer so that you can pick the best one for each movie occasion. We've got
-          your back and start you bucket list with 50 of the best movies ever made. Grow to any length you wish. Have
-          fun, and don't forget to grab a snack and some popcorn before you fire up your favorite streaming service.</p>
+        <h2>Watch the movies you love in theaters anytime...</h2>
       </div>
       <div class="container">
         <div class="poster-Box">
         </div>
       </div>
+
     </div>
+    <%@ include file="includes/footer.jsp" %>
   </div>
-  <%@ include file="includes/footer.jsp" %>
 </div>
 </body>
 </html>

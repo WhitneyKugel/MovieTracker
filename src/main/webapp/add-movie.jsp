@@ -48,12 +48,7 @@
             </div>
 
             <div id="rightNewMovie">
-              <p>
-                Catalog your favorite movies, movie bucket list, or store your current library in the system. For a
-                robust catalog, ensure that all fields are entered properly.
-                <iframe src="https://www.youtube.com/embed/Mw91RJ_m_7g" id="smallVideo">
-                </iframe>
-              </p>
+
             </div>
 
           </div>

@@ -15,14 +15,8 @@
     </ul>
   <li><a href="add-movie.jsp">Add New Movie</a></li>
 
-  <li class="dropdown">
-    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search By<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-      <li><a href="search-title.jsp">Title</a></li>
-      <li><a href="search-director.jsp">Director</a></li>
-      <li><a href="search-year-released.jsp">Year</a></li>
-      <li><a href="search-genre.jsp">Genre</a></li>
-    </ul>
+  <li><a href="search.jsp">Search</a></li>
+
   <li><a href="populate.jsp">Populate DB</a></li>
   <li><a href="log-in.jsp">Log In</a></li>
 </ul>
