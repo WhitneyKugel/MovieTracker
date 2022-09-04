@@ -104,6 +104,10 @@ p{
     justify-content: center;
 }
 
+.nav-tabs > li > p {
+    padding-top: 8px;
+}
+
 .poster {
     max-width: 338px;
     max-height: 500px;

@@ -10,30 +10,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Simplify header across all pages">
+    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Update navigate bar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/add-movie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add-movie.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-director.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-genre.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-title.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search-title.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-year-released.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/add-movie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/add-movie.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/movies.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/includes/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/log-in.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/log-in.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/populate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/populate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-director.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-director.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-genre.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-title.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-title.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-year-released.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/search-year-released.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/view-all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/welcome.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +240,7 @@
       <updated>1662085312440</updated>
       <workItem from="1662085314913" duration="2485000" />
       <workItem from="1662152734926" duration="10007000" />
-      <workItem from="1662314184191" duration="5247000" />
+      <workItem from="1662314184191" duration="9244000" />
     </task>
     <task id="LOCAL-00001" summary="New Initial Commit with missing files">
       <created>1662085355387</created>
@@ -313,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662318657100</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update navigate bar">
+      <created>1662320087984</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662320087984</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +327,8 @@
     <MESSAGE value="New Initial Commit with missing files" />
     <MESSAGE value="Update layout and replace vid for img" />
     <MESSAGE value="Simplify header across all pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simplify header across all pages" />
+    <MESSAGE value="Update navigate bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update navigate bar" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
