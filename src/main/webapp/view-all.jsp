@@ -10,12 +10,17 @@
 <div id="page-container">
   <div id="content-wrap">
     <div class="container">
-      <div class="hero-unit">
-        <h1><span class="flicker-fast">Bucket</span> List <span class="flicker-slow">Movies</span></h1>
-      </div>
-
       <%@ include file="includes/navigation.jsp" %>
-
+      <div>
+        <ul class="nav nav-tabs">
+          <li><p>Sort By: </p></li>
+          <li><a href="ViewAll?sortType=title">Title</a></li>
+          <li><a href="ViewAll?sortType=lengthInMinutes">Length</a></li>
+          <li><a href="ViewAll?sortType=director">Director</a></li>
+          <li><a href="ViewAll?sortType=yearReleased">Year Released</a></li>
+          <li><a href="ViewAll?sortType=mostRecent">Most Recent</a></li>
+        </ul>
+      </div>
       <div class="container">
         <c:choose>
           <c:when test="${empty movies}">

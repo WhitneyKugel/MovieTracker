@@ -8,9 +8,6 @@
     <div id="page-container">
       <div id="content-wrap">
         <div class="container">
-          <div class="hero-unit">
-            <h1><span class="flicker-fast">Bucket</span> List <span class="flicker-slow">Movies</span></h1>
-          </div>
 
           <%@ include file="includes/navigation.jsp"%>
 
@@ -51,12 +48,7 @@
             </div>
 
             <div id="rightNewMovie">
-              <p>
-                Catalog your favorite movies, movie bucket list, or store your current library in the system. For a
-                robust catalog, ensure that all fields are entered properly.
-                <iframe src="https://www.youtube.com/embed/Mw91RJ_m_7g" id="smallVideo">
-                </iframe>
-              </p>
+
             </div>
 
           </div>
