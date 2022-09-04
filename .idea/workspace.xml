@@ -11,29 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Update layout and replace vid for img">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/DarkKnight.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/Book1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/add-movie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/add-movie.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/img/curtains.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/img/curtains2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/movies.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/log-in.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/log-in.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/populate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/populate.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-director.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search-director.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-genre.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search-genre.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-title.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search-title.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/search-year-released.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/search-year-released.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/welcome.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/Book1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/bootstrap.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/img/curtains.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/img/curtains2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/movies.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/view-all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/welcome.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,6 +247,7 @@
       <updated>1662085312440</updated>
       <workItem from="1662085314913" duration="2485000" />
       <workItem from="1662152734926" duration="10007000" />
+      <workItem from="1662314184191" duration="3676000" />
     </task>
     <task id="LOCAL-00001" summary="New Initial Commit with missing files">
       <created>1662085355387</created>

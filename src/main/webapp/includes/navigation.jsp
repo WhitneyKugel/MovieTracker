@@ -1,3 +1,6 @@
+<div class="hero-unit">
+  <h1><span class="flicker-fast">Nostalgia</span><span class="flicker-slow">Cinema</span></h1>
+</div>
 <ul class="nav nav-tabs">
   <li><a href="index.jsp">Home</a></li>
   <li class="dropdown">

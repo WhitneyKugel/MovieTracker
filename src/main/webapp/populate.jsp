@@ -9,10 +9,6 @@
     <div id="page-container">
       <div id="content-wrap">
         <div class="container">
-          <div class="hero-unit">
-            <h1>Populate Database</h1>
-          </div>
-
           <%@ include file="includes/navigation.jsp"%>
           <p>WARNING: This action will over-write the existing database.</p>
           <div class="container">
