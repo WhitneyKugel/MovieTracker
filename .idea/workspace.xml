@@ -11,14 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Update navigate bar">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/AmericanHistoryX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/BackToTheFuture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/FightClub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/ForrestGump.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/GreenMile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/Inception.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/assets/img/Interstellar.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/movies.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/includes/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view-all.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/assets/movies.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/includes/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0-SNAPSHOT/view-all.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +245,7 @@
       <updated>1662085312440</updated>
       <workItem from="1662085314913" duration="2485000" />
       <workItem from="1662152734926" duration="10007000" />
-      <workItem from="1662314184191" duration="9244000" />
+      <workItem from="1662314184191" duration="11829000" />
     </task>
     <task id="LOCAL-00001" summary="New Initial Commit with missing files">
       <created>1662085355387</created>
@@ -305,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662320087984</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Update navigate bar">
+      <created>1662325314687</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662325314687</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

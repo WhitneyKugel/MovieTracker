@@ -8,6 +8,6 @@
   <%--  <li><a href="add-movie.jsp">Add New Movie</a></li>--%>
 
   <li><a href="search.jsp">Search</a></li>
-  <%--  <li><a href="populate.jsp">Populate DB</a></li>--%>
-<%--  <li><a href="log-in.jsp">Log In</a></li>--%>
+  <li><a href="populate.jsp">Populate DB</a></li>
+  <%--  <li><a href="log-in.jsp">Log In</a></li>--%>
 </ul>
