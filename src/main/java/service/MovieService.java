@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public interface MovieService {
 
-    List<Movie> getAllMovies() throws MovieDaoException;
+    List<Movie> getAllMovies();
 
     Movie getMovieByTitle(String title);
 }
