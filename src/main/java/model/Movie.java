@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 @NoArgsConstructor
@@ -13,8 +15,12 @@ import java.io.Serializable;
 @Getter
 @Setter
 @ToString
+@Entity
 public class Movie implements Serializable {
 
+	private static final long serialVersionUID = 1L;
+
+	@Id
 	private String title;
 	private String plot;
 	private String director;

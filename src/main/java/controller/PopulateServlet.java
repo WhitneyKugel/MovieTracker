@@ -1,8 +1,7 @@
 package controller;
 
-import dao.MovieDao;
-import dao.MovieDaoException;
-import dao.MovieDaoImpl;
+import repository.MovieDaoException;
+import repository.MovieDaoImpl;
 import utility.WorkbookUtility;
 
 import javax.servlet.*;

@@ -1,9 +1,8 @@
 package controller;
 
 import com.google.common.base.Strings;
-import dao.MovieDao;
-import dao.MovieDaoException;
-import dao.MovieDaoImpl;
+import repository.MovieDaoException;
+import repository.MovieDaoImpl;
 import model.Movie;
 
 import javax.servlet.*;

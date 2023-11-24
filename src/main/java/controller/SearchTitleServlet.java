@@ -1,8 +1,7 @@
 package controller;
 
-import dao.MovieDao;
-import dao.MovieDaoException;
-import dao.MovieDaoImpl;
+import repository.MovieDaoException;
+import repository.MovieDaoImpl;
 import model.Movie;
 
 import javax.servlet.*;
@@ -10,7 +9,6 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
-import java.util.Locale;
 import java.util.stream.Collectors;
 
 @WebServlet(name = "SearchTitleServlet", urlPatterns = "/SearchTitle")
