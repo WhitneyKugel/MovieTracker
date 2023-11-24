@@ -1,13 +1,14 @@
 package service;
 
 import model.Movie;
-import repository.MovieDaoException;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-public class MovieService {
+@Service
+public interface MovieService {
 
-    List<Movie> retrieveMovies() throws MovieDaoException;
+    List<Movie> getAllMovies() throws MovieDaoException;
 
-
+    Movie getMovieByTitle(String title);
 }
