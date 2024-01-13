@@ -12,29 +12,6 @@ public class DBUtility {
 	private static final String CONNECTION = "jdbc:sqlite:movie.db";
 	private static final String DRIVER_NAME = "org.sqlite.JDBC";
 
-	public static Connection createConnection() throws ClassNotFoundException, SQLException {
 
-		// register the driver
-		Class.forName(DRIVER_NAME);
-
-		// create the database connection
-		return DriverManager.getConnection(CONNECTION);
-
-	}
-
-	public static void closeConnection(final Connection connection, final Statement statement) {
-
-		try {
-			if(null != connection) {
-				connection.close();
-			}
-			if(null != statement) {
-				statement.close();
-			}
-		} catch (SQLException throwables) {
-			throwables.printStackTrace();
-		}
-
-	}
 
 }

@@ -15,12 +15,10 @@ public class MovieController {
     private final MovieService movieService;
 
 
-    @GetMapping()
+    @GetMapping
     public List<Movie> getAllMovies() {
 
-        List<Movie> movies = movieService.getAllMovies();
-
-        return movies;
+	    return movieService.getAllMovies();
     }
 
     @GetMapping("/title")
