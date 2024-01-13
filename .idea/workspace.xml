@@ -10,10 +10,110 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Continue migration to REST">
+    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Migrate to Spring">
       <change afterPath="$PROJECT_DIR$/.idea/MovieTracker.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/DirectorComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/GenreComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/LengthComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/ReverseYearComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/TitleComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/YearComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/controller/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/model/Movie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/project/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/project/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/repository/MovieRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/service/MovieService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/service/impl/MovieServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/utility/DBUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/utility/WorkbookUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/antlr4-runtime-4.13.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-annotations-2.15.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-core-2.15.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-databind-2.15.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-datatype-jdk8-2.15.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-datatype-jsr310-2.15.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-module-parameter-names-2.15.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/jul-to-slf4j-2.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/log4j-api-2.21.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/log4j-to-slf4j-2.21.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/logback-classic-1.4.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/logback-core-1.4.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/micrometer-commons-1.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/micrometer-observation-1.12.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/slf4j-api-2.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/snakeyaml-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-aop-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-beans-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-autoconfigure-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-json-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-logging-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-web-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-context-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-core-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-data-commons-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-data-jpa-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-expression-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-jcl-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-jdbc-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-orm-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-tx-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-web-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-webmvc-6.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/lib/xmlbeans-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/add-movie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/css/bootstrap-responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/AmericanHistoryX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/BackToTheFuture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/DarkKnight.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/FightClub.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/ForrestGump.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/GreenMile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/Inception.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/img/Interstellar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/js/movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/movies.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/confirmEmail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/includes/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/includes/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/includes/navigation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/log-in.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/populate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/serverError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/view-all.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/controller/MovieController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/project/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/project/ServletInitializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/repository/MovieRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/MovieService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/service/impl/MovieServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/BucketListMovies_war.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/BucketListMovies_war_exploded.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
@@ -283,7 +383,7 @@
     <configuration name="Deploy" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" value="local" />
       <module name="BucketListMovies" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="project.Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="application.ApplicationController" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="RunConfigurationTask" enabled="true" run_configuration_name="Quick Build" run_configuration_type="MavenRunConfiguration" />
@@ -413,7 +513,7 @@
       <workItem from="1705170834981" duration="117000" />
       <workItem from="1705171149587" duration="20000" />
       <workItem from="1705171199429" duration="286000" />
-      <workItem from="1705171504211" duration="3918000" />
+      <workItem from="1705171504211" duration="4869000" />
     </task>
     <task id="LOCAL-00001" summary="New Initial Commit with missing files">
       <created>1662085355387</created>
@@ -501,7 +601,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700863880068</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Migrate to Spring">
+      <option name="closed" value="true" />
+      <created>1705175753866</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1705175753866</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,7 +634,8 @@
     <MESSAGE value="Update navigate bar" />
     <MESSAGE value="Begin migration to REST" />
     <MESSAGE value="Continue migration to REST" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continue migration to REST" />
+    <MESSAGE value="Migrate to Spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Migrate to Spring" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
