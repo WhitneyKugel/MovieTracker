@@ -10,7 +10,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Migrate to Spring" />
+    <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Migrate to Spring">
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/DirectorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/comparator/DirectorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/GenreComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/comparator/GenreComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/LengthComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/comparator/LengthComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/ReverseYearComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/comparator/ReverseYearComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/TitleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/comparator/TitleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/comparator/YearComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/comparator/YearComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/repository/MovieRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/DBUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/application/utility/DBUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utility/WorkbookUtility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/DirectorComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/GenreComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/LengthComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/ReverseYearComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/TitleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/comparator/YearComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/model/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/project/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/project/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/repository/MovieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/service/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/service/impl/MovieServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/utility/DBUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/WEB-INF/classes/utility/WorkbookUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/BucketListMovies-1.0.0/assets/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comparator/DirectorComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comparator/GenreComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comparator/LengthComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comparator/ReverseYearComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comparator/TitleComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/comparator/YearComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Movie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/project/ServletInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/repository/MovieRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/MovieService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/impl/MovieServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/DBUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utility/WorkbookUtility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +127,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Deploy.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.0.M26.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -309,6 +363,7 @@
       <workItem from="1705171149587" duration="20000" />
       <workItem from="1705171199429" duration="286000" />
       <workItem from="1705171504211" duration="4955000" />
+      <workItem from="1705176806045" duration="6702000" />
     </task>
     <task id="LOCAL-00001" summary="New Initial Commit with missing files">
       <created>1662085355387</created>
@@ -412,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705176591707</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Migrate to Spring">
+      <option name="closed" value="true" />
+      <created>1705176868834</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1705176868834</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
