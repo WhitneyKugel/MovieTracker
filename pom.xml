@@ -5,26 +5,90 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.1</version>
-        <relativePath/> <!-- lookup parent from application.repository -->
+        <groupId>com.whitneykugel</groupId>
+        <artifactId>kugel-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../whitney-kugel-parent</relativePath>
     </parent>
 
-    <groupId>com.whitneykugel</groupId>
-    <artifactId>BucketListMovies</artifactId>
-    <version>1.0.0</version>
-    <name>BucketListMovies</name>
-    <packaging>war</packaging>
+    <groupId>com.whitneykugel.movietracker</groupId>
+    <artifactId>movie-app-parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Movie Tracker App Parent</name>
+    <description>Track movies.</description>
 
     <properties>
-        <java.version>17</java.version>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <junit.version>5.7.0</junit.version>
-        <org.springframework.version>6.0.0</org.springframework.version>
 
+        <!-- Deployment Variables -->
+        <appName>MovieTracker</appName>
+        <globalVersion>${project.version}</globalVersion>
+        <majorVersionNumber>1</majorVersionNumber>
+        <minorVersionNumber>0</minorVersionNumber>
+        <finalWarName>movie-tracker-v${majorVersionNumber}</finalWarName>
+        <deploymentLogFileName>WhitneyKugel.com/${appName}</deploymentLogFileName>
+        <tomcatContainerName>tomcat</tomcatContainerName>
+        <tomcatSystemCtlName>tomcat</tomcatSystemCtlName>
+        <logbackDirectoryName>/WhitneyKugel.com/logs</logbackDirectoryName>
+        <maven.build.timestamp.format>yyyyMM</maven.build.timestamp.format>
+        <eaiZipFileDateTime>${maven.build.timestamp}</eaiZipFileDateTime>
     </properties>
+
+    <modules>
+        <module>movie-app</module>
+        <module>movie-app-config1</module>
+        <module>movie-app-data-old</module>
+        <module>movie-app-presentation0</module>
+        <module>movie-app-service</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>movie-app</artifactId>
+                <version>${project.version}</version>
+                <type>war</type>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>movie-app-config</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>movie-app-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>movie-app-presentation</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>movie-app-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
     <dependencies>
 

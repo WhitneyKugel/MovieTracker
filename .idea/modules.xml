@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/movie-app-config/movie-app-config.iml" filepath="$PROJECT_DIR$/movie-app-config/movie-app-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-app-data/movie-app-data.iml" filepath="$PROJECT_DIR$/movie-app-data/movie-app-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-app-presentation/movie-app-presentation.iml" filepath="$PROJECT_DIR$/movie-app-presentation/movie-app-presentation.iml" />
+    </modules>
+  </component>
+</project>
