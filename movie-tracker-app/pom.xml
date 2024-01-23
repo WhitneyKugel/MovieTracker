@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.whitneykugel.movietracker</groupId>
+        <artifactId>movie-app-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>movie-tracker-app</artifactId>
+    <packaging>war</packaging>
+
+    <name>Movie Tracker App</name>
+    <description>Track movies.</description>
+
+    <build>
+        <finalName>${finalWarName}</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <attachClasses>true</attachClasses>
+                </configuration>
+            </plugin>
+            <!-- Build deployment tar files -->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>3.2.0</version>
+                <executions>
+                    <execution>
+                        <id>InnerTar</id>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <phase>package</phase>
+                        <configuration>
+                            <finalName>SUSE</finalName>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>src/main/assemble/suse-tar-gz.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>EaiZip</id>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                            <phase>package</phase>
+                            <configuration>
+                                <appendAssemblyId>false</appendAssemblyId>
+                                <finalName>${eaiZipFileDateTime}-${appName}-${project.version}</finalName>
+                                <descriptors>
+                                    <descriptor>src/main/assemble/eai-zip.xml</descriptor>
+                                </descriptors>
+                            </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web-services</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.tomcat.embed</groupId>
+                    <artifactId>tomcat-embed-websocket</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-dbcp</artifactId>
+            <version>9.0.16</version>
+        </dependency>
+
+    </dependencies>
+
+<!--    <profiles>-->
+<!--        &lt;!&ndash; Activating this profile will create an additional wrapper around the normal deployment  &ndash;&gt;-->
+<!--        <profile>-->
+<!--            <id>deployment-bundler</id>-->
+<!--            <activation>-->
+<!--                <property>-->
+<!--                    <name>bundler</name>-->
+<!--                    <value>true</value>-->
+<!--                </property>-->
+<!--            </activation>-->
+<!--            <build>-->
+<!--                <plugins>-->
+<!--                    <plugin>-->
+<!--                        <artifactId>maven-assembly-plugin</artifactId>-->
+<!--                        <version>3.2.0</version>-->
+<!--                        <executions>-->
+<!--                            <execution>-->
+<!--                                <id>BundlerTarGz</id>-->
+<!--                                <goals>-->
+<!--                                    <goal>single</goal>-->
+<!--                                </goals>-->
+<!--                                <phase>package</phase>-->
+<!--                                <configuration>-->
+<!--                                    <finalName>SUSE-BUNDLER</finalName>-->
+<!--                                    <appendAssemblyId>false</appendAssemblyId>-->
+<!--                                    <descriptors>-->
+<!--                                        <descriptor>src/main/assemble/eai-zip-bundler.xml</descriptor>-->
+<!--                                    </descriptors>-->
+<!--                                </configuration>-->
+<!--                            </execution>-->
+<!--                        </executions>-->
+<!--                    </plugin>-->
+<!--                </plugins>-->
+<!--            </build>-->
+<!--        </profile>-->
+<!--    </profiles>-->
+
+<!--    <properties>-->
+<!--        <maven.compiler.source>8</maven.compiler.source>-->
+<!--        <maven.compiler.target>8</maven.compiler.target>-->
+<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+<!--    </properties>-->
+<!--    -->
+</project>
