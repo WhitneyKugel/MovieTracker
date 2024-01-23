@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/movie-app/pom.xml" />
         <option value="$PROJECT_DIR$/untitled/pom.xml" />
         <option value="$PROJECT_DIR$/movie-app-service/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-tracker-serve/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -19,6 +20,7 @@
         <option value="$PROJECT_DIR$/movie-app/pom.xml" />
         <option value="$PROJECT_DIR$/movie-tracker-presentation/pom.xml" />
         <option value="$PROJECT_DIR$/movie-tracker-service/pom.xml" />
+        <option value="$PROJECT_DIR$/movie-tracker-service1/pom.xml" />
       </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />

@@ -4,8 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/movie-app-data/movie-app-data.iml" filepath="$PROJECT_DIR$/movie-app-data/movie-app-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-app-presentation/movie-app-presentation.iml" filepath="$PROJECT_DIR$/movie-app-presentation/movie-app-presentation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/movie-tracker-prese/movie-tracker-prese.iml" filepath="$PROJECT_DIR$/movie-tracker-prese/movie-tracker-prese.iml" />
-      <module fileurl="file://$PROJECT_DIR$/movie-tracker-presentation-1/movie-tracker-presentation.iml" filepath="$PROJECT_DIR$/movie-tracker-presentation-1/movie-tracker-presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-tracker-present/movie-tracker-present.iml" filepath="$PROJECT_DIR$/movie-tracker-present/movie-tracker-present.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/movie-tracker-service.iml" filepath="$PROJECT_DIR$/untitled/movie-tracker-service.iml" />
     </modules>
   </component>

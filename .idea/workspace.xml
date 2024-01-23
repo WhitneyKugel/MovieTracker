@@ -11,171 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c6b9fb-23bf-424c-afef-7e74f9183c36" name="Changes" comment="Migrate to Spring">
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/ApplicationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/ServletInitializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/comparator/DirectorComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/comparator/GenreComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/comparator/LengthComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/comparator/ReverseYearComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/comparator/TitleComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/comparator/YearComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/controller/MovieController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/model/Movie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/repository/MovieRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/service/MovieService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/service/impl/MovieServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application/utility/DBUtility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-config/movie-tracker-config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-config/src/main/java/com/whitneykugel/movietracker/configuration/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-data/movie-tracker-data.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-data/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-prese/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/MovieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/DirectorComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/GenreComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/LengthComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/ReverseYearComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/TitleComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/YearComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-tracker-serve/movie-tracker-serve.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/impl/MovieServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-config/movie-app-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-prese/movie-tracker-prese.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-data/src/main/java/com/whitneykugel/movieapp/data/DBUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-data/src/main/java/com/whitneykugel/movietracker/data/DBUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-data/src/main/java/com/whitneykugel/movieapp/data/dao/MovieRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-data/src/main/java/com/whitneykugel/movietracker/data/dao/MovieRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-data/src/main/java/com/whitneykugel/movieapp/data/entity/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-data/src/main/java/com/whitneykugel/movietracker/data/entity/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/MovieService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/comparator/DirectorComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/comparator/GenreComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/comparator/LengthComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/comparator/ReverseYearComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/comparator/TitleComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/comparator/YearComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app-service/src/main/java/service/impl/MovieServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/java/com/whitneykugel/movieapp/config/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/java/com/whitneykugel/movietracker/config/ApplicationConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/java/com/whitneykugel/movieapp/config/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/java/com/whitneykugel/movietracker/config/ServletInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/java/com/whitneykugel/movieapp/config/properties/ApplicationProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/java/com/whitneykugel/movietracker/config/properties/ApplicationProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/java/com/whitneykugel/movieapp/config/properties/DatabaseProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/java/com/whitneykugel/movietracker/config/properties/DatabaseProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/out/artifacts/Movies_wkugel1_war2/Movies_wkugel1_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/out/artifacts/Movies_wkugel1_war2/Movies_wkugel1_war.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/add-movie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/add-movie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/css/bootstrap-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/AmericanHistoryX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/AmericanHistoryX.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/BackToTheFuture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/BackToTheFuture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/DarkKnight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/DarkKnight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/FightClub.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/FightClub.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/ForrestGump.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/ForrestGump.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/GreenMile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/GreenMile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/Inception.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/Inception.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/img/Interstellar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/img/Interstellar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/js/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/js/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/assets/movies.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/confirmEmail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/confirmEmail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/error404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/includes/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/includes/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/log-in.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/log-in.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/populate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/populate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/serverError.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/serverError.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/view-all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/src/main/webapp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/src/main/webapp/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0.war.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/antlr4-runtime-4.13.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/antlr4-runtime-4.13.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-annotations-2.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-annotations-2.15.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-core-2.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-core-2.15.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-databind-2.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-databind-2.15.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-datatype-jdk8-2.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-datatype-jdk8-2.15.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-datatype-jsr310-2.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-datatype-jsr310-2.15.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-module-parameter-names-2.15.3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jackson-module-parameter-names-2.15.3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jul-to-slf4j-2.0.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/jul-to-slf4j-2.0.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/log4j-api-2.21.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/log4j-api-2.21.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/log4j-to-slf4j-2.21.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/log4j-to-slf4j-2.21.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/logback-classic-1.4.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/logback-classic-1.4.14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/logback-core-1.4.14.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/logback-core-1.4.14.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/micrometer-commons-1.12.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/micrometer-commons-1.12.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/micrometer-observation-1.12.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/micrometer-observation-1.12.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/slf4j-api-2.0.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/slf4j-api-2.0.9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/snakeyaml-2.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/snakeyaml-2.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-aop-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-aop-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-beans-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-beans-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-autoconfigure-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-autoconfigure-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-json-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-json-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-logging-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-logging-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-web-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-boot-starter-web-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-context-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-context-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-core-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-core-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-data-commons-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-data-commons-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-data-jpa-3.2.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-data-jpa-3.2.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-expression-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-expression-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-jcl-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-jcl-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-jdbc-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-jdbc-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-orm-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-orm-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-tx-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-tx-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-web-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-web-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-webmvc-6.1.2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/spring-webmvc-6.1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/stax-api-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/stax-api-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/lib/xmlbeans-3.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/lib/xmlbeans-3.0.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/add-movie.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/add-movie.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/css/bootstrap-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/css/bootstrap-responsive.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/AmericanHistoryX.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/AmericanHistoryX.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/BackToTheFuture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/BackToTheFuture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/DarkKnight.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/DarkKnight.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/FightClub.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/FightClub.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/ForrestGump.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/ForrestGump.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/GreenMile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/GreenMile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/Inception.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/Inception.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/img/Interstellar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/img/Interstellar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/js/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/js/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/js/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/js/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/assets/movies.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/assets/movies.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/confirmEmail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/confirmEmail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/error404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/error404.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/includes/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/includes/navigation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/includes/navigation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/log-in.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/log-in.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/populate.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/populate.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/serverError.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/serverError.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/view-all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/view-all.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/BucketListMovies-1.0.0/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/BucketListMovies-1.0.0/welcome.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/movie-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-prese/movie-tracker-prese.iml" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-present/movie-tracker-present.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-prese/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-present/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/DirectorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/GenreComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/comparator/DirectorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/LengthComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/comparator/GenreComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/ReverseYearComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/comparator/LengthComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/TitleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/comparator/ReverseYearComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/comparator/YearComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/comparator/TitleComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movie-tracker-service1/src/main/java/com/whitneykugel/movietracker/service/impl/MovieServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/movie-tracker-serve/src/main/java/com/whitneykugel/movietracker/service/comparator/YearComparator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,11 +117,11 @@
       <recent name="$PROJECT_DIR$/movie-app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/movie-tracker-serve" />
       <recent name="$PROJECT_DIR$/movie-app-data/src/main/java/com/whitneykugel/movieapp/data" />
       <recent name="$PROJECT_DIR$/movie-app/src/main/java/com/whitneykugel/movieapp/config" />
       <recent name="$PROJECT_DIR$/movie-app-config/src/main/java/com/whitneykugel/movieapp/configuration" />
       <recent name="$PROJECT_DIR$/untitled" />
-      <recent name="$PROJECT_DIR$/movie-app/src/main" />
     </key>
   </component>
   <component name="RunManager" selected="Maven.Build">
@@ -489,7 +342,7 @@
       <workItem from="1705958082178" duration="231000" />
       <workItem from="1705958323800" duration="4360000" />
       <workItem from="1706048983434" duration="43000" />
-      <workItem from="1706049037894" duration="427000" />
+      <workItem from="1706049037894" duration="824000" />
     </task>
     <task id="LOCAL-00001" summary="New Initial Commit with missing files">
       <created>1662085355387</created>
@@ -609,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705794938852</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Migrate to Spring">
+      <option name="closed" value="true" />
+      <created>1706049502188</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706049502188</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
