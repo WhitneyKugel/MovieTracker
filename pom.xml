@@ -40,8 +40,8 @@
         <module>movie-tracker-app</module>
         <module>movie-tracker-config</module>
         <module>movie-tracker-data</module>
-        <module>movie-tracker-presentation-1</module>
-        <module>movie-tracker-service1</module>
+        <module>movie-tracker-presentation</module>
+        <module>movie-tracker-service</module>
     </modules>
 <dependencyManagement>
     <dependencies>
@@ -88,4 +88,6 @@
             </plugins>
         </pluginManagement>
     </build>
+
+
 </project>

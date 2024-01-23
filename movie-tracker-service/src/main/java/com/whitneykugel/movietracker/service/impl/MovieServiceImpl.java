@@ -1,9 +1,9 @@
-package service.impl;
+package com.whitneykugel.movietracker.service.impl;
 
 import lombok.RequiredArgsConstructor;
-import model.Movie;
-import repository.MovieRepository;
-import service.MovieService;
+import com.whitneykugel.movietracker.service.MovieService;
+import com.whitneykugel.movietracker.data.entity.Movie;
+
 
 import java.util.List;
 

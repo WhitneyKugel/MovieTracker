@@ -1,4 +1,4 @@
-package service;
+package com.whitneykugel.movietracker.service;
 
 import model.Movie;
 import org.springframework.stereotype.Service;
