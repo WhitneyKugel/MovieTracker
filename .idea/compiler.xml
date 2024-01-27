@@ -8,8 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="movie-tracker-data" />
-        <module name="movie-tracker-presentation" />
-        <module name="movie-tracker-service" />
         <module name="movie-tracker-app" />
         <module name="movie-tracker-config" />
       </profile>
@@ -18,8 +16,10 @@
       <module name="MavenExample" target="1.8" />
       <module name="movie-app" target="1.5" />
       <module name="movie-app-service" target="1.8" />
+      <module name="movie-tracker-presentation" target="1.8" />
       <module name="movie-tracker-presentation (1)" target="1.5" />
       <module name="movie-tracker-presentation (2)" target="1.5" />
+      <module name="movie-tracker-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

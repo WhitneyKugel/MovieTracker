@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/movie-app-data/movie-app-data.iml" filepath="$PROJECT_DIR$/movie-app-data/movie-app-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/movie-app-presentation/movie-app-presentation.iml" filepath="$PROJECT_DIR$/movie-app-presentation/movie-app-presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-tracker-config/movie-tracker-config.iml" filepath="$PROJECT_DIR$/movie-tracker-config/movie-tracker-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-tracker-data/movie-tracker-data.iml" filepath="$PROJECT_DIR$/movie-tracker-data/movie-tracker-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-tracker-present/movie-tracker-presentation.iml" filepath="$PROJECT_DIR$/movie-tracker-present/movie-tracker-presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/movie-tracker-serve/movie-tracker-service.iml" filepath="$PROJECT_DIR$/movie-tracker-serve/movie-tracker-service.iml" />
     </modules>
   </component>
 </project>

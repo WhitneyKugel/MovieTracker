@@ -8,10 +8,12 @@
     <file url="file://$PROJECT_DIR$/movie-app/src2/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-tracker-config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-tracker-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-tracker-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-tracker-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-tracker-presentation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/movie-tracker-presentation/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movie-tracker-serve/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/movie-tracker-serve/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-tracker-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/movie-tracker-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
   </component>
 </project>
