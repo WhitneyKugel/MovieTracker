@@ -1,0 +1,4 @@
+com/whitneykugel/movietracker/config/properties/ApplicationProperties.class
+com/whitneykugel/movietracker/config/ServletInitializer.class
+com/whitneykugel/movietracker/config/properties/DatabaseProperties.class
+com/whitneykugel/movietracker/config/ApplicationConfiguration.class

@@ -1,0 +1,3 @@
+com/whitneykugel/movietracker/data/entity/Movie.class
+com/whitneykugel/movietracker/data/dao/MovieRepository.class
+com/whitneykugel/movietracker/data/DBUtility.class

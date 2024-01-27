@@ -1,0 +1,9 @@
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/impl/MovieServiceImpl.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/comparator/DirectorComparator.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/comparator/ReverseYearComparator.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/MovieService.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/comparator/GenreComparator.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/config/ServiceModuleConfiguration.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/comparator/TitleComparator.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/comparator/LengthComparator.java
+/Users/whitneykugel/Coding/JavaProjects/MovieTracker/movie-tracker-service/src/main/java/com/whitneykugel/movietracker/service/comparator/YearComparator.java
