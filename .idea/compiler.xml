@@ -18,7 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="MovieTracker" options="" />
+      <module name="MovieTracker" options="-parameters" />
       <module name="movie-app-data" options="" />
       <module name="movie-app-presentation" options="" />
       <module name="movie-tracker-app" options="-parameters" />

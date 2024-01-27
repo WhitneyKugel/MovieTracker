@@ -15,6 +15,7 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
+
     <modules>
         <module>movie-tracker-app</module>
         <module>movie-tracker-config</module>
@@ -24,6 +25,7 @@
     </modules>
 <dependencyManagement>
     <dependencies>
+
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>movie-tracker-app</artifactId>
@@ -57,15 +59,24 @@
 
     </dependencies>
 </dependencyManagement>
+    <properties>
+        <!-- Set the default Java version for the entire project -->
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+
     <build>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-surefire-plugin</artifactId>
-                </plugin>
-            </plugins>
-        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Use the latest version -->
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
     </build>
 
 
