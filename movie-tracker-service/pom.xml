@@ -1,31 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!-- Child Module POM for movie-tracker-service -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
     <parent>
         <groupId>com.whitneykugel.movietracker</groupId>
-        <artifactId>movie-tracker-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>movie-tracker</artifactId>
+        <version>1.0.0</version>
     </parent>
 
-    <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>movie-tracker-service</artifactId>
+    <packaging>jar</packaging> <!-- Set packaging type to "jar" or your desired type -->
+
+    <!-- Add other module-specific configurations, dependencies, and plugins here -->
     <dependencies>
+        <!-- Other dependencies -->
+
+        <!-- Lombok dependency -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>RELEASE</version>
+            <version>1.18.22</version> <!-- Use the latest version available -->
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.whitneykugel.movietracker</groupId>
-            <artifactId>movie-tracker-data</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
     </dependencies>
-
 </project>

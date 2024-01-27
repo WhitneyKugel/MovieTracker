@@ -5,36 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.whitneykugel</groupId>
-        <artifactId>kugel-parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
-        <relativePath>../whitney-kugel-parent</relativePath>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.1.2</version> <!-- Use the latest Spring Boot version -->
     </parent>
 
-    
     <groupId>com.whitneykugel.movietracker</groupId>
-    <artifactId>movie-tracker-parent</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>movie-tracker</artifactId>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
-
-    <name>Movie Tracker Parent</name>
-    <description>Track movies.</description>
-
-    <properties>
-
-        <!-- Deployment Variables -->
-        <appName>MovieTracker</appName>
-        <globalVersion>${project.version}</globalVersion>
-        <majorVersionNumber>1</majorVersionNumber>
-        <minorVersionNumber>0</minorVersionNumber>
-        <finalWarName>movie-tracker-v${majorVersionNumber}</finalWarName>
-        <deploymentLogFileName>WhitneyKugel.com/${appName}</deploymentLogFileName>
-        <tomcatContainerName>tomcat</tomcatContainerName>
-        <tomcatSystemCtlName>tomcat</tomcatSystemCtlName>
-        <logbackDirectoryName>/WhitneyKugel.com/logs</logbackDirectoryName>
-        <maven.build.timestamp.format>yyyyMM</maven.build.timestamp.format>
-        <eaiZipFileDateTime>${maven.build.timestamp}</eaiZipFileDateTime>
-    </properties>
 
     <modules>
         <module>movie-tracker-app</module>
