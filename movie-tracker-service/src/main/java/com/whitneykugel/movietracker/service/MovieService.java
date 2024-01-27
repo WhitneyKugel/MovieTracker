@@ -1,6 +1,6 @@
 package com.whitneykugel.movietracker.service;
 
-import model.Movie;
+import com.whitneykugel.movietracker.data.entity.Movie;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

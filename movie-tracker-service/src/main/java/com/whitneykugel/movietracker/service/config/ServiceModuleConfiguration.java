@@ -3,6 +3,7 @@ package com.whitneykugel.movietracker.service.config;/*
     Date:     Purpose:
 */
 
+import com.whitneykugel.movietracker.data.dao.MovieRepository;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

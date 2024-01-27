@@ -1,7 +1,11 @@
 package com.whitneykugel.movietracker.service.impl;
 
+import com.whitneykugel.movietracker.data.dao.MovieRepository;
+import com.whitneykugel.movietracker.data.entity.Movie;
 import lombok.RequiredArgsConstructor;
 import com.whitneykugel.movietracker.service.MovieService;
+
+import java.util.List;
 
 @RequiredArgsConstructor
 public class MovieServiceImpl implements MovieService {
